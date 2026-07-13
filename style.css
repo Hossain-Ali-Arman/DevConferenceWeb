@@ -15,8 +15,8 @@ a{
 }
 
 nav{
-    background-color: ;
-    margin: 30px 20px;
+    background-color: white;
+    margin: 5px 10px;
 }
 .container{
     display: flex;
@@ -28,12 +28,15 @@ nav{
     background-color: #1D4ED8;
     color: white;
     padding: 12px 12px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
-    height: 48px;
-    width: 188px;
+    height: 28px;
+    width: 120px;
     cursor: pointer;
     scale: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 
@@ -44,15 +47,17 @@ nav{
     scale: 1.1;
 }
 .logo{
-   margin: 0px 70px;
+   margin: 0px 40px;
+   scale: 0.7;
     
 }
 
 .container ul{
-    gap: 10px;
+    gap: 3px;
 }
 .container ul li a{
-    padding: 12px 12px;
+    padding: 10px 5px;
+    font-size: 12px;
     
 }
 .container ul li a:hover{
@@ -68,12 +73,13 @@ nav{
     background-image: url('./assets/banner.jpg');
     background-size: cover;
     background-position: center;
-    height: auto;
+    height: 550px;
 
        display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    object-fit: cover;
     
 }
 
@@ -87,7 +93,7 @@ nav{
     color: #FFFFFF;
     padding-top: 150px;
     position: relative;
-    font-size: 80px;
+    font-size: 60px;
     
 
 
@@ -103,32 +109,31 @@ nav{
 }
 
 .hero button{
-    margin-top: 250px;
+    margin-top: 120px;
     margin-bottom: 80px;
-    display: block;
-    scale: 1.7;
+    scale: 1.2;
 }
 
 .hero button:hover{
-    scale: 1.8;
+    scale: 1.4;
 }
 .speaker_heading{
     text-align: center;
-    font-size: 50px;
-    padding: 50px 20px 0 0;
-    font-weight: 900;
+    font-size: 36px;
+    padding: 100px 0 20px 0;
+    font-weight: 700;
 
 
 }
 .speaker_card{
     display: grid;
-    grid-template-columns:repeat(2,850px);
+    grid-template-columns:repeat(2, 500px);
     grid-auto-rows: auto;
     justify-content: center;
     align-items: center;
     max-width: 1400px;
-    margin: 60px auto;
-    gap: 30px 30px;
+    margin: 20px auto;
+    gap: 10px;
     
 }
 
@@ -142,29 +147,33 @@ nav{
 .s_card img{
     border-radius: 10px 10px 0 0;
     width: 100%;
-    height: auto;
-    display: block;
+    height: 200px;
+    object-fit: cover;
 }
 
 .field{
     color: #1D4ED8;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 
 .position{
     color: #575757;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.s_card p, h1{
-    padding: 10px;
+.s_card p, h3{
+    padding: 2px 2px 0 15px;
+}
+
+.s_card p{
+    font-size: 10px;
 }
 
 .price-card{
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3, 500px);
+    grid-template-columns: repeat(3, 350px);
     gap: 50px;
 
 }
@@ -185,12 +194,12 @@ nav{
 .plan{
     color:#888888;
     margin: 10px;
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .price{
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 700;
     margin: 5px;
 }
 
@@ -201,11 +210,14 @@ nav{
 
 .list li{
     list-style: disc;
-    padding: 10px;
+    padding: 5px;
 }
 
+.list li::marker{
+    color: #2563EB;
+}
 .list{
-    margin: 10px;
+    margin: 5px;
 }
 
 .price-card-btn{
@@ -266,12 +278,12 @@ nav{
 .plan-pro{
     color:#2563EB;
     margin: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .price-pro{
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 700;
     margin: 5px;
     color: #FFFFFF;
 }
@@ -283,30 +295,37 @@ nav{
 
 .list-pro{
     color:#cecdcd;
-    margin: 10px;
+    margin: 20px;
+    
 }
 
 .list-pro li{
     list-style: disc;
-    padding: 10px;
+    padding: 5px;
+    
+
+}
+.list-pro li::marker{
+    color: #2563EB;
 }
 
+
 #Head-card-price{
-    font-size: 48px;
+    font-size: 24px;
    text-align: center;
-   margin: 200px 50px auto;
+   margin: 100px 0 0 0;
    
 }
 
 #deadline{
     text-align: center;
-    margin: 50px;
+    margin: 10px 0 20px 0;
     color: #7a7a7a;
 }
 
 .footer{
-    margin-top: 100px;
-    padding: 40px 80px;
+    margin-top: 30px;
+    padding: 10px 25px;
     background-color: #8f8f8f;
 }
 
@@ -317,7 +336,7 @@ nav{
 }
 
 .footer-logo img{
-    width: 180px;
+    width: 100px;
 }
 
 .social-links{
@@ -326,8 +345,8 @@ nav{
 }
 
 .social-links img{
-    width: 28px;
-    height: 28px;
+    width: 20px;
+    height: 20px;
     transition: transform .3s ease;
 }
 
@@ -336,7 +355,7 @@ nav{
 }
 
 .footer hr{
-    margin: 30px 0;
+    margin: 15px 0;
     border: none;
     border-top: 1px solid rgba(255,255,255,.2);
 }
@@ -344,12 +363,12 @@ nav{
 .copyright{
     text-align: center;
     color: #0D1B2A;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .innovation{
     margin:120px auto;
-    max-width:1500px;
+    max-width:1200px;
     text-align:center;
 }
 
@@ -360,7 +379,7 @@ nav{
 
 .innovation-subtitle{
     color:#777;
-    margin-bottom:60px;
+    margin-bottom:30px;
     line-height:1.7;
 }
 
