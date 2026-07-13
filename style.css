@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: "Open Sans", sans-serif;
 }
 
 ul li{
@@ -114,8 +114,10 @@ nav{
 }
 .speaker_heading{
     text-align: center;
-    font-size: 48px;
+    font-size: 50px;
     padding: 50px 20px 0 0;
+    font-weight: 900;
+
 
 }
 .speaker_card{
@@ -158,3 +160,111 @@ nav{
 .s_card p, h1{
     padding: 10px;
 }
+
+.price-card{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 500px);
+    gap: 50px;
+
+}
+
+.normal-card{
+    background-color: #fcfcfb;
+    border-radius: 10px;
+    padding: 30px;
+    border: 0.1px solid #dbdbdb;
+}
+.plan{
+    color:#888888;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.price{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 5px;
+}
+
+.person{
+    color: #888888;
+    margin: 10px ;
+}
+
+.list li{
+    list-style: disc;
+    padding: 10px;
+}
+
+.list{
+    margin: 10px;
+}
+
+.price-card-btn{
+    display: flex;
+    justify-content: center;
+    background-color: #fcfcfb;
+    color: #2563EB;
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: 1px solid #2563EB;
+    height: 48px;
+    width: 80%;
+    cursor: pointer;
+    scale: 1;
+    margin: 20px auto;
+   
+}
+
+.price-card-btn-pro{
+    display: flex;
+    justify-content: center;
+    background-color: #2563EB;
+    color: #FFFFFF;
+    padding: 12px 12px;
+    border-radius: 10px;
+    border: none;
+    height: 48px;
+    width: 80%;
+    cursor: pointer;
+    scale: 1;
+    margin: 20px auto;
+   
+}
+
+.pro-card{
+    background-color: #0D1B2A;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.plan-pro{
+    color:#2563EB;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.price-pro{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+.person-pro{
+    color: #888888;
+    margin: 10px ;
+}
+
+.list-pro{
+    color:#cecdcd;
+    margin: 10px;
+}
+
+.list-pro li{
+    list-style: disc;
+    padding: 10px;
+}
+
+.Head-card-price
