@@ -112,3 +112,49 @@ nav{
 .hero button:hover{
     scale: 1.8;
 }
+.speaker_heading{
+    text-align: center;
+    font-size: 48px;
+    padding: 50px 20px 0 0;
+
+}
+.speaker_card{
+    display: grid;
+    grid-template-columns:repeat(2,850px);
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 60px auto;
+    gap: 30px 30px;
+    
+}
+
+.s_card{
+    border-radius: 10px;
+    background-color:#f3f3f3;
+    border: solid 0.1px #dbdbdb;
+    
+}
+
+.s_card img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.field{
+    color: #1D4ED8;
+    margin-top: 10px;
+}
+
+.position{
+    color: #575757;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.s_card p, h1{
+    padding: 10px;
+}
