@@ -267,4 +267,16 @@ nav{
     padding: 10px;
 }
 
-.Head-card-price
+#Head-card-price{
+    font-size: 48px;
+   text-align: center;
+   margin: 200px 50px auto;
+   
+}
+
+#deadline{
+    text-align: center;
+    margin: 50px;
+    color: #7a7a7a;
+}
+
